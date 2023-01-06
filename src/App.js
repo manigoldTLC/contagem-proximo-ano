@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import {GlobalStyle} from './styles/Global';
+import Home from './Home';
+import FooterComponent from './components/FooterComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <GlobalStyle />
+      
+      <Home />
+      <FooterComponent />
+      {/* <div style={{position: 'fixed', top: '-5%', zIndex:'-1', backgroundPosition: 'center'}}>
+        <img style={{width: '100%', height: '100%'}} src={require('./assets/background.png')} />
+      </div> */}
     </div>
   );
 }
