@@ -7,7 +7,7 @@ const FooterComponent = () => {
 
   return (
     <Footer>
-      <span className="span">&copy; {currentYear} | Gabriel Xavier Cardoso <a className="link" target="_blank" href="https://portfolio-manigoldtlc.vercel.app/">me conheça</a></span>
+      <span className="span">&copy; {currentYear} | Gabriel Xavier<a className="link" target="_blank" href="https://portfolio-manigoldtlc.vercel.app/">me conheça</a></span>
     </Footer>
   );
 };
