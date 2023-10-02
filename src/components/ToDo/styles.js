@@ -7,7 +7,7 @@ export const Container = styled.div`
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    
+    display: none;
     
     .container {
         max-width: 100%;
