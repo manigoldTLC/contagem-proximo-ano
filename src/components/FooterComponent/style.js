@@ -7,6 +7,7 @@ export const Footer = styled.footer`
     padding: 1rem 0;
     display: flex;
     justify-content: center;
+    bottom: 0;
 
     .span {
         color: white;
