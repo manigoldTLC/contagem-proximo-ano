@@ -85,7 +85,7 @@ const Default = () => {
                             <img src={gif} alt="Reproduzindo um gif, o conteúdo é a queima dos fogos de artificios comemorando o ano novo" />
                         </div>
 
-                        <span className="message">Feliz ano novo!<br/> Seja bem vindo {currentYear + 1} 🎉</span>
+                        <span className="message">Feliz ano novo!<br/> Seja bem vindo 2024 🎉</span>
                     </div>
                 )}
             </div>
